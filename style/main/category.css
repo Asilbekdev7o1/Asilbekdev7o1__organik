@@ -1,0 +1,63 @@
+@import url(../fonts.css);
+
+.category{
+    padding-top: 145px;
+    padding-bottom: 145px;
+}
+
+.category-info {
+    display: flex;
+    gap: 10px;
+}
+
+.category-info__left {
+    background: url(../../Photo/section-1.jpeg) no-repeat center /cover;
+    max-width: 800px;
+    width: 100%;
+    padding-top: 118px;
+    padding-left: 50px;
+    padding-bottom: 110px;
+    border-radius: 10px;
+}
+
+.category-left__minititle {
+    color: rgb(255, 255, 255);
+    font-family: 'RR';
+    font-size: 36px;
+    line-height: 49px;
+}
+
+.category-left__title {
+    color: rgb(255, 255, 255);
+    font-family: 'RR';
+    font-size: 40px;
+    line-height: 47px;
+    max-width: 277px;
+    width: 100%;
+}
+
+.category-info__right {
+    background: url(../../Photo/section-11.jpeg) no-repeat center /cover;
+    max-width: 800px;
+    width: 100%;
+    padding-top: 118px;
+    padding-left: 50px;
+    padding-bottom: 110px;
+    border-radius: 10px;
+}
+
+.category-right__minititle {
+    color: rgb(126, 182, 147);
+    font-family: 'RR';
+    font-size: 36px;
+    line-height: 49px;
+}
+
+.category-right__title {
+    color: rgb(39, 76, 91);
+    font-family: 'RR';
+    font-size: 40px;
+    line-height: 47px;
+    max-width: 277px;
+    width: 100%;
+}

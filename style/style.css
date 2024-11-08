@@ -1,0 +1,147 @@
+@import url(fonts.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1540px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.nav-info {
+    display: flex;
+    gap: 10px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    align-items: center;
+}
+
+.nav-info__minititle {
+    color: rgb(39, 76, 91);
+    font-family: 'RR';
+    font-size: 38px;
+    line-height: 45px;
+    text-align: left;
+}
+
+.nav-info__list {
+    display: flex;
+    gap: 30px;
+    margin-left: 150px;
+}
+
+.nav-list__link {
+    color: rgb(39, 76, 91);
+    font-family: 'RR';
+    font-size: 20px;
+    line-height: 23px;
+    text-align: left;
+}
+
+.nav-info__btns {
+    display: flex;
+    margin-left: 130px;
+}
+
+.nav-info__label {
+    display: flex;
+    justify-content: center;
+
+}
+
+.nav-info__email {
+    box-sizing: border-box;
+    border: 2px solid rgb(229, 229, 229);
+    border-radius: 6px;
+    background: rgb(248, 248, 248);
+    text-align: center;
+    margin-right: 10px;
+    align-items: center;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+
+.nav-info__btn {
+    color: rgb(255, 255, 255);
+    font-family: 'RR';
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    border-radius: 6px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 32px;
+    padding-right: 32px;
+    transition: all 500ms;
+    background: rgb(82, 123, 131);
+}
+
+.nav-info__btn:hover {
+    background: rgb(0, 180, 216);
+}
+.header-content{
+    background: url(../Photo/Image.jpeg) no-repeat center /cover;
+}
+.header-info__custom{
+
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 247px;
+    padding-bottom: 246px;
+}
+
+.header-left__minititle {
+    color: rgb(104, 164, 127);
+    font-family: 'RR';
+    font-size: 36px;
+    line-height: 49px;
+}
+
+.header-left__title {
+    color: rgb(39, 76, 91);
+    font-family: 'RR';
+    font-size: 70px;
+    line-height: 82px;
+    text-align: left;
+    max-width: 450px;
+    width: 100%;
+}
+
+.header-left__box {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.header-left__btn {
+    color: rgb(39, 76, 91);
+    font-family: 'RR';
+    font-size: 20px;
+    line-height: 23px;
+    transition: all 500ms;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 39px;
+    padding-right: 39px;
+    background: rgb(239, 211, 114);
+}
+
+.header-left__btn:hover {
+    border-radius: 20px;
+    background: rgb(255, 200, 0);
+}
+
+
+
+
+

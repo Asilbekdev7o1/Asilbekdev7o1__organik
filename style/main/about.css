@@ -1,0 +1,102 @@
+@import url(../fonts.css);
+
+.about-info {
+    display: flex;
+}
+
+.about-info__box {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    padding-top: 100px;
+}
+
+.about-box__minititle {
+    color: rgb(126, 182, 147);
+    font-family: 'RR';
+    font-size: 36px;
+    line-height: 49px;
+    text-align: left;
+
+}
+
+.about-box__title {
+    color: rgb(39, 76, 91);
+    font-family: 'RR';
+    font-size: 50px;
+    line-height: 59px;
+    text-align: left;
+}
+
+.about-box__text {
+    color: rgb(82, 92, 96);
+    font-family: 'RR';
+    font-size: 18px;
+    line-height: 165.4%;
+    text-align: left;
+    max-width: 690px;
+    width: 100%;
+}
+
+.about-custom__one {
+    display: flex;
+    align-items: center;
+    margin-top: 48px;
+}
+
+.about-one__icon {
+    border-radius: 20px;
+    background: rgb(158, 149, 149);
+    font-size: 30px;
+    padding-top: 23px;
+    padding-left: 23px;
+    padding-bottom: 23px;
+    padding-right: 23px;
+    margin-right: 19px;
+}
+
+.abuot-one__minititle {
+    color: rgb(39, 76, 91);
+    font-family: 'RR';
+    font-size: 25px;
+    line-height: 29px;
+    text-align: left;
+}
+
+.about-one__text {
+    color: rgb(82, 92, 96);
+    font-family: 'RR';
+    font-size: 18px;
+    line-height: 165.4%;
+    text-align: left;
+    margin-top: 7px;
+    max-width: 444px;
+    width: 100%;
+}
+
+.about-custom__two {
+    display: flex;
+    align-items: center;
+    margin-top: 48px;
+}
+
+.about-info__btn {
+    color: rgb(255, 255, 255);
+    font-family: 'RR';
+    font-size: 20px;
+    line-height: 23px;
+    background: rgb(39, 76, 91);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    transition: all 500ms;
+    max-width: 220px;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.about-info__btn:hover {
+    border-radius: 16px;
+    background: rgb(12, 149, 203);
+}

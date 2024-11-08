@@ -1,0 +1,123 @@
+@import url(../fonts.css);
+
+.project {
+    padding-top: 100px;
+}
+
+.project-info__minititle {
+    color: rgb(126, 182, 147);
+    font-family: 'RR';
+    font-size: 36px;
+    line-height: 49px;
+    text-align: center;
+}
+
+.project-info__title {
+    color: rgb(39, 76, 91);
+    font-family: 'RR';
+    font-size: 50px;
+    line-height: 59px;
+    text-align: center;
+}
+
+.project-info__box {
+    padding-top: 40px;
+    display: flex;
+    gap: 20px;
+}
+
+.project-box__category {
+    border-radius: 30px;
+    max-width: 400px;
+    width: 100%;
+    height: 550px;
+    background: rgb(249, 248, 248);
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.project-category__btn {
+    color: rgb(255, 255, 255);
+    font-family: 'RR';
+    font-size: 15px;
+    line-height: 20px;
+    background: rgb(39, 76, 91);
+    transition: all 500ms;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 12px;
+    padding-right: 12px;
+    border-radius: 8px;
+}
+
+.project-category__btn:hover {
+    border-radius: 18px;
+    background: rgb(9, 176, 241);
+}
+
+.project-category__photo {
+    margin-top: 30px;
+    margin-bottom: 2px;
+}
+
+.project-category__minititle {
+    color: rgb(39, 76, 91);
+    font-family: 'RR';
+    font-size: 20px;
+    line-height: 23px;
+}
+
+.project-category__hr {
+    width: 274px;
+    margin-top: 13px;
+    margin-bottom: 10px;
+}
+
+.project-category__custom {
+    align-items: center;
+    display: flex;
+    gap: 20px;
+}
+
+.project-custom__pul {
+    color: rgb(39, 76, 91);
+    font-family: 'RR';
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+}
+
+.project-box__custom {
+    padding-top: 40px;
+    display: flex;
+    gap: 20px;
+}
+
+.a {
+    display: flex;
+    justify-content: center;
+    padding-top: 200px;
+    padding-bottom: 100px;
+}
+
+.project-info__btn {
+    color: rgb(255, 255, 255);
+    font-family: 'RR';
+    font-size: 20px;
+    line-height: 23px;
+    text-align: left;
+    border-radius: 16px;
+    transition: all 500ms;
+    padding-top: 28px;
+    padding-bottom: 28px;
+    padding-left: 46px;
+    padding-right: 46px;
+    background: rgb(39, 76, 91);
+}
+
+.project-info__btn:hover {
+    border-radius: 25px;
+    background: rgb(0, 183, 255);
+}
